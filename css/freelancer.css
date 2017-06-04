@@ -159,9 +159,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #19a2e8;
   color: white;
-  border-color: #18BC9C;
+  border-color: #19a2e8;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -194,6 +194,7 @@ section.success {
   background: #19a2e8;
   color: white;
 }
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -301,6 +302,7 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: white;
+
 }
 footer h3 {
   margin-bottom: 30px;
@@ -544,6 +546,12 @@ div#maincontent {
 
 }
 
+@media only screen and (max-width: 400px) {
+    .circle-crop {
+      width: 275px;
+      height: 275px;
+    }
+}
 .circle-img {
   border: 10px solid #2C3E50;
   display: block;
