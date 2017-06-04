@@ -42,12 +42,12 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\f121";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
   top: -0.8em;
-  font-size: 2em;
+  font-size: 3em;
   padding: 0 0.25em;
 }
 hr.star-light {
@@ -517,8 +517,8 @@ div#maincontent {
 }
 
 .circle-crop {
-  width: 100px;
-  height: 100px;
+  width: 350px;
+  height: 350px;
   position: relative;
   margin: 0 auto;
 
@@ -529,7 +529,6 @@ div#maincontent {
   margin: 0 auto;
   height: 100%;
   width: auto;
-  border: 2px solid white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
