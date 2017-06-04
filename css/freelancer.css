@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #19a2e8;
   color: white;
 }
 hr.star-primary {
@@ -69,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #19a2e8;
   color: white;
 }
 header .container {
@@ -182,7 +182,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #19a2e8;
   color: white;
 }
 @media (max-width: 767px) {
@@ -526,6 +526,7 @@ div#maincontent {
 }
 
 .circle-img {
+  border: 10px solid #2C3E50;
   display: block;
   margin: 0 auto;
   height: 100%;
@@ -533,4 +534,9 @@ div#maincontent {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+}
+
+.tech{
+  font-size: 24px;
+  font-weight: 400px;
 }
