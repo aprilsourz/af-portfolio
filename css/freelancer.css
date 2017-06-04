@@ -32,6 +32,7 @@ h6 {
 }
 
 hr.star-light,
+hr.star-last,
 hr.star-primary {
   padding: 0;
   border: none;
@@ -41,14 +42,22 @@ hr.star-primary {
   margin: 25px auto 30px;
 }
 hr.star-light:after,
+hr.star-last:after,
 hr.star-primary:after {
   content: "\f121";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
   top: -0.8em;
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 0 0.25em;
+}
+hr.star-last {
+  border-color: white;
+}
+hr.star-last:after {
+  background-color: #2C3E50;
+  color: white;
 }
 hr.star-light {
   border-color: white;
@@ -309,20 +318,30 @@ footer .footer-below {
 }
 
 .btn-outline {
-  color: #333;
+  color: #fff;
   font-size: 20px;
-  border: solid 2px #333;
+  border: solid 2px #2C3E50;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
+
+.download{
+color: #2C3E50;
+}
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #fff;
-  background: #333;
+  color: #2C3E50;
+  background: #fff;
   border: solid 2px #333;
+}
+
+.download:hover{
+color: #fff;
+background-color: #2C3E50;
 }
 .btn-primary {
   color: white;
