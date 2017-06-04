@@ -307,10 +307,11 @@ footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
 }
+
 .btn-outline {
-  color: white;
+  color: #333;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #333;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -319,9 +320,9 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
-  background: white;
-  border: solid 2px white;
+  color: #fff;
+  background: #333;
+  border: solid 2px #333;
 }
 .btn-primary {
   color: white;
