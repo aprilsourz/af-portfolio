@@ -583,3 +583,12 @@ div#maincontent {
   -moz-border-radius: 1%;
   border-radius: 1%;
 }
+
+.project-subheader {
+  font-size: 23px;
+  margin-top: -25px;
+
+}
+.project-description{
+  font-size: 18px;
+}
