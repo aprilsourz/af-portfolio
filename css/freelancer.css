@@ -548,28 +548,28 @@ div#maincontent {
 }
 
 .circle-crop {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   position: relative;
   margin: 0 auto;
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .circle-crop {
       width: 275px;
       height: 275px;
     }
 }
 .circle-img {
-  border: 10px solid #2C3E50;
+  border: 2px solid #2C3E50;
   display: block;
   margin: 0 auto;
   height: 100%;
   width: auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  border-radius: 1%;
 }
 
 .tech{
@@ -578,7 +578,7 @@ div#maincontent {
 }
 
 .modal-img {
-  border: 2px solid #2C3E50;
+  border: 2px solid #2C1E50;
   -webkit-border-radius: 1%;
   -moz-border-radius: 1%;
   border-radius: 1%;
