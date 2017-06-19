@@ -210,7 +210,6 @@ section.success {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -600,4 +599,9 @@ div#maincontent {
 .resume-link {
   color: #e58585;
 
+}
+.img-portfolio {
+  width: 475px;
+  height: 308px;
+  text-align: center;
 }
